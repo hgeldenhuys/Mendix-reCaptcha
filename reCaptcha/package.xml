@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mendix.com/package/1.0/">
+  <modelerProject xmlns="http://www.mendix.com/modelerProject/1.0/">
+    <module name="reCaptcha" />
+    <projectFile path="project.mpr" />
+    <files>
+      <file path="javasource\recaptcha\actions\VerifySecret.java" />
+      <file path="userlib\java-json.jar" />
+    </files>
+  </modelerProject>
+</package>
