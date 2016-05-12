@@ -1,6 +1,6 @@
 # Mendix-reCaptcha
 
-![]({{site.baseurl}}/https://www.evernote.com/l/AAHIrbskkHxBpIvDqXF1NDpdxd5yKLxQ_o0B/image.png)
+![](https://www.evernote.com/l/AAHIrbskkHxBpIvDqXF1NDpdxd5yKLxQ_o0B/image.png)
 
 ##Introduction
 
