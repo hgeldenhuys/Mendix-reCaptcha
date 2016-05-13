@@ -29,37 +29,37 @@ After setting up your domain secret and key at Google, you will need an entity o
 
 ![Example entity](https://www.evernote.com/l/AAHjafifOpJHPoy1y7C5M_pD4L9qpbQj1W8B/image.png)
 
--Use the verfied flag to drive your Mendix app logic based on whether or not your verification passed.
--The Response Attribute is the challenge issued by the widget that will be sent along with your secret.
--The Response Attribute is the challenge issued by the widget that will be sent along with your secret.
--You could add an additional attribute for they "Key" if you don't want to use a literal string, if your site serves multiple domains
+- Use the verfied flag to drive your Mendix app logic based on whether or not your verification passed.
+- The Response Attribute is the challenge issued by the widget that will be sent along with your secret.
+- The Response Attribute is the challenge issued by the widget that will be sent along with your secret.
+- You could add an additional attribute for they "Key" if you don't want to use a literal string, if your site serves multiple domains
 
 ![Sample](https://www.evernote.com/l/AAEK0CHbBDhFHZc_NtFiJFXQp7tOVuJfxQEB/image.png)
 
 ![Screenshot](https://www.evernote.com/l/AAEQb-K0BD1HJbJTul2gu8NdVXSX9JG7A0MB/image.png)
 
 ##Dependencies
--None
+- None
 
 ##Properties
 
-**Key String**			Key string key. You need to pass wither the Key String or a Key Attribute
+- **Key String**			Key string key. You need to pass wither the Key String or a Key Attribute
 
-**Key Attribute**		Key attribute key. You need to pass wither the Key String or a Key Attribute
+- **Key Attribute**		Key attribute key. You need to pass wither the Key String or a Key Attribute
 
-**Response Attribute**		The attribute where the response is stored for verification
+- **Response Attribute**		The attribute where the response is stored for verification
 
-**Verfication Microflow**	The microflow that will verify with Google and must return a boolean. If false a reCaptcha.reset() will be triggered.
+- **Verfication Microflow**	The microflow that will verify with Google and must return a boolean. If false a reCaptcha.reset() will be triggered.
 
-**Expired Microflow**		The microflow that will trigger if the recaptcha expired. You can send back validation messages from your microflow.
+- **Expired Microflow**		The microflow that will trigger if the recaptcha expired. You can send back validation messages from your microflow.
 
-**Data Type**				The type of CAPTCHA to serve
+- **Data Type**				The type of CAPTCHA to serve
 
-**Data Theme**				Widget theme
+- **Data Theme**				Widget theme
 
-**Data Size**				The size of the widget
+- **Data Size**				The size of the widget
 
-**Data Tab Index**			The tabindex of the widget and challenge. If other elements in your page use tabindex, it should be set to make user navigation easier.
+- **Data Tab Index**			The tabindex of the widget and challenge. If other elements in your page use tabindex, it should be set to make user navigation easier.
 
 
 ##Known bugs
