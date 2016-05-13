@@ -21,8 +21,8 @@ Verifying a user is a human and not a droid.
 
 ##Whats included?
 
-The reCaptcha module containing a single java action to send your secret and response to Google.
-A reCaptcha widget 
+- The reCaptcha module containing a single java action to send your secret and response to Google.
+- A reCaptcha widget 
 
 ##Configuration
 After setting up your domain secret and key at Google, you will need an entity of some kind to configure your verification process since that happens server-side.
