@@ -27,13 +27,16 @@ A reCaptcha widget
 ##Configuration
 After setting up your domain secret and key at Google, you will need an entity of some kind to configure your verification process since that happens server-side.
 
-Example entity
+![Example entity](https://www.evernote.com/l/AAHjafifOpJHPoy1y7C5M_pD4L9qpbQj1W8B/image.png)
 
 Use the verfied flad to drive your Mendix app logic based on whether or not your verification passed.
 The Response Attribute is the challenge issued by the widget that will be sent along with your secret.
 The Response Attribute is the challenge issued by the widget that will be sent along with your secret.
 You could add an additional attribute for they "Key" if you don't want to use a literal string, if your site serves multiple domains
 
+![Sample](https://www.evernote.com/l/AAEK0CHbBDhFHZc_NtFiJFXQp7tOVuJfxQEB/image.png)
+
+![Screenshot](https://www.evernote.com/l/AAEQb-K0BD1HJbJTul2gu8NdVXSX9JG7A0MB/image.png)
 
 ##Dependencies
 -None
