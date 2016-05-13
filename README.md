@@ -3,7 +3,7 @@
 ![](https://www.evernote.com/l/AAHIrbskkHxBpIvDqXF1NDpdxd5yKLxQ_o0B/image.png)
 
 ##Mendix version
-6.5+ but if you need an version for a previous version of Mendix just pop me an email
+6.5+ but if you need a version for a previous version of Mendix just pop me an email
 
 ##Introduction
 
