@@ -2,6 +2,9 @@
 
 ![](https://www.evernote.com/l/AAHIrbskkHxBpIvDqXF1NDpdxd5yKLxQ_o0B/image.png)
 
+##Mendix version
+6.5+
+
 ##Introduction
 
 The most simple, complete and flexible reCaptcha widget for Mendix.

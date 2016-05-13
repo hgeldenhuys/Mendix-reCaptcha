@@ -6,6 +6,7 @@
     <files>
       <file path="javasource\recaptcha\actions\VerifySecret.java" />
       <file path="userlib\java-json.jar" />
+      <file path="widgets\reCaptcha.mpk" />
     </files>
   </modelerProject>
 </package>
