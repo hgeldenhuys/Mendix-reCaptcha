@@ -63,7 +63,7 @@ After setting up your domain secret and key at Google, you will need an entity o
 
 
 ##Known bugs
--None
+- None
 
 ##Frequently Asked Questions
 
